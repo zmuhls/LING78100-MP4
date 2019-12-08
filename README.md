@@ -11,7 +11,7 @@ English word. Open the file in Python, and read the words line by line. For
 each word, if the word contains any "doubled" (i.e., repeated and adjacent)
 letters, print it out; otherwise, do not print it. For instance, you would
 print the word *annoy* because it contains the subsequence *nn*, but not
-*suds* because the two _s_s are not adjacent.
+*suds* because the two _s_ characters are not adjacent.
 
 ### What to turn in
 
@@ -61,7 +61,6 @@ And in Australia, 061-900-654-321 is a fictitious toll-free number.
 ### Hints
 
 -   There is more than one way to solve this.
--   Your solution should only need to call `re.sub` once.
 -   You will **not** receive full credit if you instead use functions like
     `str.replace`.
 -   You do not need to write a class or a function here, though a simple
